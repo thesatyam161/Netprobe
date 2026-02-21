@@ -26,7 +26,6 @@
 - [CLI Reference](#cli-reference)
 - [Port Specification Formats](#port-specification-formats)
 - [Target Specification Formats](#target-specification-formats)
-- [Sample Output](#sample-output)
 - [Running Tests](#running-tests)
 - [Architecture & How It Works](#architecture--how-it-works)
 - [Troubleshooting](#troubleshooting)
