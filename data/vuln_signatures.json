@@ -1,0 +1,274 @@
+[
+    {
+        "pattern": "OpenSSH[_ ]7\\.",
+        "service": "ssh",
+        "cve": "CVE-2020-15778",
+        "severity": "MEDIUM",
+        "description": "OpenSSH 7.x may be vulnerable to command injection via scp (CVE-2020-15778)",
+        "remediation": "Upgrade to OpenSSH 8.x or later"
+    },
+    {
+        "pattern": "OpenSSH[_ ]6\\.",
+        "service": "ssh",
+        "cve": "CVE-2016-10009",
+        "severity": "HIGH",
+        "description": "OpenSSH 6.x is vulnerable to unauthorized agent forwarding (CVE-2016-10009)",
+        "remediation": "Upgrade to OpenSSH 7.4 or later"
+    },
+    {
+        "pattern": "OpenSSH[_ ][45]\\.",
+        "service": "ssh",
+        "cve": "CVE-2014-1692",
+        "severity": "CRITICAL",
+        "description": "OpenSSH 4.x/5.x contains multiple critical vulnerabilities",
+        "remediation": "Upgrade to OpenSSH 8.x or later immediately"
+    },
+    {
+        "pattern": "Apache/2\\.4\\.(49|50)",
+        "service": "http",
+        "cve": "CVE-2021-41773",
+        "severity": "CRITICAL",
+        "description": "Apache 2.4.49/2.4.50 path traversal and RCE vulnerability",
+        "remediation": "Upgrade to Apache 2.4.51 or later"
+    },
+    {
+        "pattern": "Apache/2\\.4\\.([1-3][0-9]|4[0-8])",
+        "service": "http",
+        "cve": "CVE-2021-44790",
+        "severity": "HIGH",
+        "description": "Apache 2.4.x (before 2.4.52) buffer overflow in mod_lua",
+        "remediation": "Upgrade to Apache 2.4.52 or later"
+    },
+    {
+        "pattern": "Apache/2\\.2\\.",
+        "service": "http",
+        "cve": "CVE-2017-9798",
+        "severity": "MEDIUM",
+        "description": "Apache 2.2.x is end-of-life and contains known vulnerabilities",
+        "remediation": "Upgrade to Apache 2.4.x latest"
+    },
+    {
+        "pattern": "nginx/1\\.([0-9]|1[0-7])\\.",
+        "service": "http",
+        "cve": "CVE-2021-23017",
+        "severity": "HIGH",
+        "description": "nginx versions before 1.18 contain multiple vulnerabilities including DNS resolver",
+        "remediation": "Upgrade to nginx 1.20 or later"
+    },
+    {
+        "pattern": "nginx/1\\.18\\.",
+        "service": "http",
+        "cve": "CVE-2021-23017",
+        "severity": "MEDIUM",
+        "description": "nginx 1.18.x DNS resolver vulnerability",
+        "remediation": "Upgrade to nginx 1.20 or later"
+    },
+    {
+        "pattern": "Microsoft-IIS/([5-7])\\.",
+        "service": "http",
+        "cve": "CVE-2017-7269",
+        "severity": "CRITICAL",
+        "description": "IIS 5.x-7.x contains critical vulnerabilities including WebDAV RCE",
+        "remediation": "Upgrade to IIS 10.x on Windows Server 2016+"
+    },
+    {
+        "pattern": "vsftpd 2\\.3\\.4",
+        "service": "ftp",
+        "cve": "CVE-2011-2523",
+        "severity": "CRITICAL",
+        "description": "vsftpd 2.3.4 contains a backdoor triggered by a smiley face in the username",
+        "remediation": "Upgrade to vsftpd 3.x or remove the backdoored version"
+    },
+    {
+        "pattern": "ProFTPD 1\\.3\\.5",
+        "service": "ftp",
+        "cve": "CVE-2015-3306",
+        "severity": "CRITICAL",
+        "description": "ProFTPD 1.3.5 mod_copy allows unauthenticated arbitrary file copy",
+        "remediation": "Upgrade to ProFTPD 1.3.6 or later"
+    },
+    {
+        "pattern": "ProFTPD 1\\.3\\.[0-4]",
+        "service": "ftp",
+        "cve": "CVE-2019-12815",
+        "severity": "HIGH",
+        "description": "ProFTPD 1.3.x (before 1.3.6) arbitrary file copy over site cpfr/cpto",
+        "remediation": "Upgrade to ProFTPD 1.3.6 or later"
+    },
+    {
+        "pattern": "MySQL 5\\.[0-5]\\.",
+        "service": "mysql",
+        "cve": null,
+        "severity": "HIGH",
+        "description": "MySQL 5.0-5.5 is end-of-life and no longer receives security patches",
+        "remediation": "Upgrade to MySQL 8.x or use MariaDB 10.x"
+    },
+    {
+        "pattern": "MySQL 5\\.6\\.",
+        "service": "mysql",
+        "cve": null,
+        "severity": "MEDIUM",
+        "description": "MySQL 5.6 is end-of-life (Feb 2021)",
+        "remediation": "Upgrade to MySQL 8.x"
+    },
+    {
+        "pattern": "MySQL 5\\.7\\.",
+        "service": "mysql",
+        "cve": null,
+        "severity": "LOW",
+        "description": "MySQL 5.7 approaches end-of-life (Oct 2023)",
+        "remediation": "Plan migration to MySQL 8.x"
+    },
+    {
+        "pattern": "redis_version:([0-4]\\.|5\\.[0-9]\\.[0-9]$)",
+        "service": "redis",
+        "cve": "CVE-2022-0543",
+        "severity": "CRITICAL",
+        "description": "Redis versions before 6.0 may be vulnerable to sandbox escape (CVE-2022-0543)",
+        "remediation": "Upgrade to Redis 7.x and require authentication"
+    },
+    {
+        "pattern": "Exim 4\\.(8[0-9]|9[0-3])",
+        "service": "smtp",
+        "cve": "CVE-2019-10149",
+        "severity": "CRITICAL",
+        "description": "Exim 4.87-4.91 remote command execution via local_part (\"Return of the WIZard\")",
+        "remediation": "Upgrade to Exim 4.92.2 or later"
+    },
+    {
+        "pattern": "Postfix.*2\\.[0-9]\\.",
+        "service": "smtp",
+        "cve": null,
+        "severity": "MEDIUM",
+        "description": "Postfix 2.x is outdated and may lack modern security features",
+        "remediation": "Upgrade to Postfix 3.x"
+    },
+    {
+        "pattern": "Sendmail.*8\\.(1[0-4])\\.",
+        "service": "smtp",
+        "cve": "CVE-2014-3956",
+        "severity": "HIGH",
+        "description": "Sendmail 8.10-8.14 known information disclosure vulnerability",
+        "remediation": "Upgrade to latest Sendmail or migrate to Postfix"
+    },
+    {
+        "pattern": "PostgreSQL 9\\.[0-4]\\.",
+        "service": "postgresql",
+        "cve": null,
+        "severity": "HIGH",
+        "description": "PostgreSQL 9.0-9.4 is end-of-life",
+        "remediation": "Upgrade to PostgreSQL 14+ or latest"
+    },
+    {
+        "pattern": "PostgreSQL 9\\.[56]\\.",
+        "service": "postgresql",
+        "cve": null,
+        "severity": "MEDIUM",
+        "description": "PostgreSQL 9.5/9.6 is end-of-life",
+        "remediation": "Upgrade to PostgreSQL 14+ or latest"
+    },
+    {
+        "pattern": "RFB 003\\.003",
+        "service": "vnc",
+        "cve": "CVE-2006-2369",
+        "severity": "HIGH",
+        "description": "VNC using RFB 3.3 protocol — weak authentication, no encryption",
+        "remediation": "Upgrade VNC server and enforce RFB 3.8+ with strong auth"
+    },
+    {
+        "pattern": "Microsoft Terminal Service",
+        "service": "rdp",
+        "cve": "CVE-2019-0708",
+        "severity": "CRITICAL",
+        "description": "RDP service detected — check for BlueKeep (CVE-2019-0708) if Windows 7/2008",
+        "remediation": "Apply Microsoft security patches, enable NLA, restrict RDP access"
+    },
+    {
+        "pattern": "MongoDB",
+        "service": "mongodb",
+        "cve": null,
+        "severity": "HIGH",
+        "description": "MongoDB instance detected on network — check for authentication bypass",
+        "remediation": "Enable authentication, bind to localhost, use TLS"
+    },
+    {
+        "pattern": "Elasticsearch",
+        "service": "elasticsearch",
+        "cve": "CVE-2015-1427",
+        "severity": "HIGH",
+        "description": "Elasticsearch instance exposed — potential Groovy sandbox escape",
+        "remediation": "Enable X-Pack security, restrict network access, disable dynamic scripting"
+    },
+    {
+        "pattern": "Server:.*Jetty\\(([0-7]|8\\.[01])",
+        "service": "http",
+        "cve": "CVE-2017-7657",
+        "severity": "HIGH",
+        "description": "Jetty versions before 9.x contain known vulnerabilities",
+        "remediation": "Upgrade to Jetty 11.x or later"
+    },
+    {
+        "pattern": "PHP/([45]\\.|7\\.[0-3]\\.|7\\.4\\.([0-9]|[12][0-9]|3[0-2])$)",
+        "service": "http",
+        "cve": null,
+        "severity": "HIGH",
+        "description": "PHP version detected is end-of-life or contains known vulnerabilities",
+        "remediation": "Upgrade to PHP 8.1+ or latest supported version"
+    },
+    {
+        "pattern": "Tomcat/([0-7]\\.|8\\.[0-4]\\.|8\\.5\\.([0-5]?[0-9]|6[0-9])$)",
+        "service": "http",
+        "cve": "CVE-2020-1938",
+        "severity": "HIGH",
+        "description": "Apache Tomcat versions may be vulnerable to Ghostcat (CVE-2020-1938)",
+        "remediation": "Upgrade to Tomcat 9.0.31+ or 8.5.51+"
+    },
+    {
+        "pattern": "lighttpd/1\\.[0-3]\\.",
+        "service": "http",
+        "cve": null,
+        "severity": "MEDIUM",
+        "description": "lighttpd version is outdated",
+        "remediation": "Upgrade to lighttpd 1.4.x latest"
+    },
+    {
+        "pattern": "Dovecot.*2\\.[0-2]\\.",
+        "service": "imap",
+        "cve": "CVE-2019-11500",
+        "severity": "HIGH",
+        "description": "Dovecot 2.0-2.2 contains known buffer overflow and information leak vulnerabilities",
+        "remediation": "Upgrade to Dovecot 2.3.x latest"
+    },
+    {
+        "pattern": "CUPS/1\\.",
+        "service": "ipp",
+        "cve": "CVE-2023-4504",
+        "severity": "HIGH",
+        "description": "CUPS 1.x end-of-life and may contain heap buffer overflow vulnerabilities",
+        "remediation": "Upgrade to CUPS 2.4.x or later"
+    },
+    {
+        "pattern": "Dropbear.*201[0-8]",
+        "service": "ssh",
+        "cve": "CVE-2018-15599",
+        "severity": "MEDIUM",
+        "description": "Dropbear SSH older versions may leak usernames",
+        "remediation": "Upgrade to latest Dropbear SSH"
+    },
+    {
+        "pattern": "CouchDB",
+        "service": "couchdb",
+        "cve": "CVE-2017-12635",
+        "severity": "HIGH",
+        "description": "CouchDB may allow privilege escalation via JSON parsing",
+        "remediation": "Upgrade CouchDB, enable authentication, restrict network access"
+    },
+    {
+        "pattern": "Docker",
+        "service": "docker",
+        "cve": null,
+        "severity": "CRITICAL",
+        "description": "Docker API exposed on network — potential full host compromise",
+        "remediation": "Never expose Docker API without TLS and client certificate auth"
+    }
+]

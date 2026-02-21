@@ -1,0 +1,1494 @@
+{
+    "tcp": {
+        "1": {
+            "name": "tcpmux",
+            "description": "TCP Port Service Multiplexer"
+        },
+        "5": {
+            "name": "rje",
+            "description": "Remote Job Entry"
+        },
+        "7": {
+            "name": "echo",
+            "description": "Echo Protocol"
+        },
+        "9": {
+            "name": "discard",
+            "description": "Discard Protocol"
+        },
+        "11": {
+            "name": "systat",
+            "description": "Active Users"
+        },
+        "13": {
+            "name": "daytime",
+            "description": "Daytime Protocol"
+        },
+        "17": {
+            "name": "qotd",
+            "description": "Quote of the Day"
+        },
+        "18": {
+            "name": "msp",
+            "description": "Message Send Protocol"
+        },
+        "19": {
+            "name": "chargen",
+            "description": "Character Generator"
+        },
+        "20": {
+            "name": "ftp-data",
+            "description": "FTP Data Transfer"
+        },
+        "21": {
+            "name": "ftp",
+            "description": "File Transfer Protocol"
+        },
+        "22": {
+            "name": "ssh",
+            "description": "Secure Shell"
+        },
+        "23": {
+            "name": "telnet",
+            "description": "Telnet"
+        },
+        "25": {
+            "name": "smtp",
+            "description": "Simple Mail Transfer Protocol"
+        },
+        "26": {
+            "name": "rsftp",
+            "description": "RSFTP"
+        },
+        "37": {
+            "name": "time",
+            "description": "Time Protocol"
+        },
+        "42": {
+            "name": "nameserver",
+            "description": "Host Name Server"
+        },
+        "43": {
+            "name": "whois",
+            "description": "WHOIS"
+        },
+        "49": {
+            "name": "tacacs",
+            "description": "TACACS Login Host"
+        },
+        "53": {
+            "name": "dns",
+            "description": "Domain Name System"
+        },
+        "57": {
+            "name": "mtp",
+            "description": "Mail Transfer Protocol"
+        },
+        "67": {
+            "name": "dhcp-server",
+            "description": "DHCP Server"
+        },
+        "68": {
+            "name": "dhcp-client",
+            "description": "DHCP Client"
+        },
+        "69": {
+            "name": "tftp",
+            "description": "Trivial File Transfer Protocol"
+        },
+        "70": {
+            "name": "gopher",
+            "description": "Gopher"
+        },
+        "79": {
+            "name": "finger",
+            "description": "Finger"
+        },
+        "80": {
+            "name": "http",
+            "description": "Hypertext Transfer Protocol"
+        },
+        "81": {
+            "name": "http-alt",
+            "description": "HTTP Alternate"
+        },
+        "82": {
+            "name": "xfer",
+            "description": "XFER Utility"
+        },
+        "83": {
+            "name": "mit-ml-dev",
+            "description": "MIT ML Device"
+        },
+        "84": {
+            "name": "ctf",
+            "description": "Common Trace Facility"
+        },
+        "85": {
+            "name": "mit-ml-dev",
+            "description": "MIT ML Device"
+        },
+        "88": {
+            "name": "kerberos",
+            "description": "Kerberos Authentication"
+        },
+        "89": {
+            "name": "su-mit-tg",
+            "description": "SU/MIT Telnet Gateway"
+        },
+        "90": {
+            "name": "dnsix",
+            "description": "DNSIX Security Attribute Token Map"
+        },
+        "99": {
+            "name": "metagram",
+            "description": "Metagram Relay"
+        },
+        "100": {
+            "name": "newacct",
+            "description": "New Account"
+        },
+        "101": {
+            "name": "hostname",
+            "description": "NIC Host Name Server"
+        },
+        "102": {
+            "name": "iso-tsap",
+            "description": "ISO-TSAP"
+        },
+        "104": {
+            "name": "acr-nema",
+            "description": "ACR-NEMA Digital Imaging"
+        },
+        "105": {
+            "name": "csnet-ns",
+            "description": "CSNET Mailbox Name Server"
+        },
+        "106": {
+            "name": "poppassd",
+            "description": "Password Server"
+        },
+        "107": {
+            "name": "rtelnet",
+            "description": "Remote Telnet Service"
+        },
+        "108": {
+            "name": "snagas",
+            "description": "SNA Gateway Access Server"
+        },
+        "109": {
+            "name": "pop2",
+            "description": "Post Office Protocol v2"
+        },
+        "110": {
+            "name": "pop3",
+            "description": "Post Office Protocol v3"
+        },
+        "111": {
+            "name": "rpcbind",
+            "description": "ONC RPC Portmapper"
+        },
+        "113": {
+            "name": "ident",
+            "description": "Ident Protocol"
+        },
+        "115": {
+            "name": "sftp",
+            "description": "Simple File Transfer Protocol"
+        },
+        "117": {
+            "name": "uucp-path",
+            "description": "UUCP Path Service"
+        },
+        "118": {
+            "name": "sqlserv",
+            "description": "SQL Services"
+        },
+        "119": {
+            "name": "nntp",
+            "description": "Network News Transfer Protocol"
+        },
+        "123": {
+            "name": "ntp",
+            "description": "Network Time Protocol"
+        },
+        "124": {
+            "name": "ansanotify",
+            "description": "ANSA REX Notify"
+        },
+        "135": {
+            "name": "msrpc",
+            "description": "Microsoft RPC"
+        },
+        "137": {
+            "name": "netbios-ns",
+            "description": "NetBIOS Name Service"
+        },
+        "138": {
+            "name": "netbios-dgm",
+            "description": "NetBIOS Datagram Service"
+        },
+        "139": {
+            "name": "netbios-ssn",
+            "description": "NetBIOS Session Service"
+        },
+        "143": {
+            "name": "imap",
+            "description": "Internet Message Access Protocol"
+        },
+        "152": {
+            "name": "bftp",
+            "description": "Background File Transfer"
+        },
+        "153": {
+            "name": "sgmp",
+            "description": "SGMP"
+        },
+        "156": {
+            "name": "sqlsrv",
+            "description": "SQL Service"
+        },
+        "158": {
+            "name": "pcmail-srv",
+            "description": "PCMail Server"
+        },
+        "161": {
+            "name": "snmp",
+            "description": "Simple Network Management Protocol"
+        },
+        "162": {
+            "name": "snmptrap",
+            "description": "SNMP Trap"
+        },
+        "170": {
+            "name": "print-srv",
+            "description": "Network PostScript"
+        },
+        "177": {
+            "name": "xdmcp",
+            "description": "X Display Manager Control Protocol"
+        },
+        "179": {
+            "name": "bgp",
+            "description": "Border Gateway Protocol"
+        },
+        "194": {
+            "name": "irc",
+            "description": "Internet Relay Chat"
+        },
+        "199": {
+            "name": "smux",
+            "description": "SNMP Unix Multiplexer"
+        },
+        "201": {
+            "name": "at-rtmp",
+            "description": "AppleTalk Routing Maintenance"
+        },
+        "209": {
+            "name": "qmtp",
+            "description": "Quick Mail Transfer Protocol"
+        },
+        "210": {
+            "name": "z39.50",
+            "description": "ANSI Z39.50"
+        },
+        "213": {
+            "name": "ipx",
+            "description": "IPX"
+        },
+        "218": {
+            "name": "mpp",
+            "description": "Netix Message Posting Protocol"
+        },
+        "220": {
+            "name": "imap3",
+            "description": "IMAP v3"
+        },
+        "256": {
+            "name": "fw1-secureremote",
+            "description": "Checkpoint Firewall SecureRemote"
+        },
+        "259": {
+            "name": "esro-gen",
+            "description": "ESRO Generation"
+        },
+        "264": {
+            "name": "bgmp",
+            "description": "Border Gateway Multicast Protocol"
+        },
+        "280": {
+            "name": "http-mgmt",
+            "description": "HTTP Management"
+        },
+        "311": {
+            "name": "asip-webadmin",
+            "description": "AppleShare IP WebAdmin"
+        },
+        "318": {
+            "name": "pkix-timestamp",
+            "description": "PKIX TimeStamp"
+        },
+        "323": {
+            "name": "immp",
+            "description": "IMMP"
+        },
+        "350": {
+            "name": "matip-type-a",
+            "description": "MATIP Type A"
+        },
+        "351": {
+            "name": "matip-type-b",
+            "description": "MATIP Type B"
+        },
+        "366": {
+            "name": "odmr",
+            "description": "On-Demand Mail Relay"
+        },
+        "389": {
+            "name": "ldap",
+            "description": "Lightweight Directory Access Protocol"
+        },
+        "411": {
+            "name": "direct-connect",
+            "description": "Direct Connect"
+        },
+        "427": {
+            "name": "svrloc",
+            "description": "Service Location Protocol"
+        },
+        "443": {
+            "name": "https",
+            "description": "HTTP over TLS/SSL"
+        },
+        "444": {
+            "name": "snpp",
+            "description": "Simple Network Paging Protocol"
+        },
+        "445": {
+            "name": "microsoft-ds",
+            "description": "Microsoft Directory Services (SMB)"
+        },
+        "464": {
+            "name": "kpasswd",
+            "description": "Kerberos Change/Set Password"
+        },
+        "465": {
+            "name": "smtps",
+            "description": "SMTP over TLS/SSL"
+        },
+        "475": {
+            "name": "cybercash",
+            "description": "CyberCash"
+        },
+        "491": {
+            "name": "go-login",
+            "description": "GO Login"
+        },
+        "497": {
+            "name": "retrospect",
+            "description": "Retrospect"
+        },
+        "500": {
+            "name": "isakmp",
+            "description": "Internet Security Association and Key Management Protocol"
+        },
+        "502": {
+            "name": "modbus",
+            "description": "Modbus Protocol"
+        },
+        "504": {
+            "name": "citadel",
+            "description": "Citadel"
+        },
+        "510": {
+            "name": "fcp",
+            "description": "FirstClass Protocol"
+        },
+        "512": {
+            "name": "exec",
+            "description": "Remote Process Execution"
+        },
+        "513": {
+            "name": "rlogin",
+            "description": "Remote Login"
+        },
+        "514": {
+            "name": "rsh",
+            "description": "Remote Shell"
+        },
+        "515": {
+            "name": "printer",
+            "description": "Line Printer Daemon"
+        },
+        "520": {
+            "name": "rip",
+            "description": "Routing Information Protocol"
+        },
+        "521": {
+            "name": "ripng",
+            "description": "RIP Next Generation"
+        },
+        "524": {
+            "name": "ncp",
+            "description": "NetWare Core Protocol"
+        },
+        "530": {
+            "name": "rpc",
+            "description": "RPC"
+        },
+        "531": {
+            "name": "chat",
+            "description": "AOL Instant Messenger"
+        },
+        "532": {
+            "name": "netnews",
+            "description": "Readnews"
+        },
+        "540": {
+            "name": "uucp",
+            "description": "Unix-to-Unix Copy Protocol"
+        },
+        "543": {
+            "name": "klogin",
+            "description": "Kerberos Login"
+        },
+        "544": {
+            "name": "kshell",
+            "description": "Kerberos Remote Shell"
+        },
+        "548": {
+            "name": "afp",
+            "description": "Apple Filing Protocol"
+        },
+        "554": {
+            "name": "rtsp",
+            "description": "Real Time Streaming Protocol"
+        },
+        "556": {
+            "name": "remotefs",
+            "description": "Remote File Sharing"
+        },
+        "563": {
+            "name": "nntps",
+            "description": "NNTP over TLS/SSL"
+        },
+        "587": {
+            "name": "submission",
+            "description": "Message Submission (SMTP)"
+        },
+        "591": {
+            "name": "filemaker",
+            "description": "FileMaker"
+        },
+        "593": {
+            "name": "http-rpc-epmap",
+            "description": "HTTP RPC Ep Map"
+        },
+        "631": {
+            "name": "ipp",
+            "description": "Internet Printing Protocol"
+        },
+        "636": {
+            "name": "ldaps",
+            "description": "LDAP over TLS/SSL"
+        },
+        "639": {
+            "name": "msdp",
+            "description": "Multicast Source Discovery Protocol"
+        },
+        "646": {
+            "name": "ldp",
+            "description": "Label Distribution Protocol"
+        },
+        "666": {
+            "name": "doom",
+            "description": "Doom Game"
+        },
+        "691": {
+            "name": "msexch-routing",
+            "description": "MS Exchange Routing"
+        },
+        "860": {
+            "name": "iscsi",
+            "description": "iSCSI"
+        },
+        "873": {
+            "name": "rsync",
+            "description": "rsync File Synchronization"
+        },
+        "902": {
+            "name": "vmware-auth",
+            "description": "VMware Authentication Daemon"
+        },
+        "989": {
+            "name": "ftps-data",
+            "description": "FTP Data over TLS/SSL"
+        },
+        "990": {
+            "name": "ftps",
+            "description": "FTP Control over TLS/SSL"
+        },
+        "993": {
+            "name": "imaps",
+            "description": "IMAP over TLS/SSL"
+        },
+        "995": {
+            "name": "pop3s",
+            "description": "POP3 over TLS/SSL"
+        },
+        "1023": {
+            "name": "reserved",
+            "description": "Reserved"
+        },
+        "1024": {
+            "name": "kdm",
+            "description": "KDE Display Manager"
+        },
+        "1025": {
+            "name": "nfs-or-iis",
+            "description": "NFS or IIS"
+        },
+        "1080": {
+            "name": "socks",
+            "description": "SOCKS Proxy"
+        },
+        "1099": {
+            "name": "rmiregistry",
+            "description": "Java RMI Registry"
+        },
+        "1194": {
+            "name": "openvpn",
+            "description": "OpenVPN"
+        },
+        "1214": {
+            "name": "kazaa",
+            "description": "Kazaa P2P"
+        },
+        "1241": {
+            "name": "nessus",
+            "description": "Nessus Scanner"
+        },
+        "1311": {
+            "name": "dell-openmanage",
+            "description": "Dell OpenManage"
+        },
+        "1337": {
+            "name": "waste",
+            "description": "WASTE Encrypted File Sharing"
+        },
+        "1433": {
+            "name": "mssql",
+            "description": "Microsoft SQL Server"
+        },
+        "1434": {
+            "name": "mssql-monitor",
+            "description": "Microsoft SQL Monitor"
+        },
+        "1512": {
+            "name": "wins",
+            "description": "Microsoft WINS"
+        },
+        "1521": {
+            "name": "oracle",
+            "description": "Oracle Database"
+        },
+        "1589": {
+            "name": "vqp",
+            "description": "VQP"
+        },
+        "1701": {
+            "name": "l2tp",
+            "description": "Layer 2 Tunnelling Protocol"
+        },
+        "1723": {
+            "name": "pptp",
+            "description": "Point-to-Point Tunnelling Protocol"
+        },
+        "1741": {
+            "name": "cisco-net-mgmt",
+            "description": "Cisco Net Management"
+        },
+        "1755": {
+            "name": "mms",
+            "description": "Microsoft Media Server"
+        },
+        "1812": {
+            "name": "radius",
+            "description": "RADIUS Authentication"
+        },
+        "1813": {
+            "name": "radius-acct",
+            "description": "RADIUS Accounting"
+        },
+        "1883": {
+            "name": "mqtt",
+            "description": "Message Queuing Telemetry Transport"
+        },
+        "1900": {
+            "name": "upnp",
+            "description": "Universal Plug and Play (SSDP)"
+        },
+        "1935": {
+            "name": "rtmp",
+            "description": "Real-Time Messaging Protocol"
+        },
+        "2049": {
+            "name": "nfs",
+            "description": "Network File System"
+        },
+        "2082": {
+            "name": "cpanel",
+            "description": "cPanel"
+        },
+        "2083": {
+            "name": "cpanels",
+            "description": "cPanel over SSL"
+        },
+        "2100": {
+            "name": "amiganetfs",
+            "description": "Amiga Network File System"
+        },
+        "2181": {
+            "name": "zookeeper",
+            "description": "Apache ZooKeeper"
+        },
+        "2222": {
+            "name": "directadmin",
+            "description": "DirectAdmin"
+        },
+        "2375": {
+            "name": "docker",
+            "description": "Docker REST API (unencrypted)"
+        },
+        "2376": {
+            "name": "docker-tls",
+            "description": "Docker REST API (TLS)"
+        },
+        "2483": {
+            "name": "oracle-tns",
+            "description": "Oracle TNS Listener (alt)"
+        },
+        "2484": {
+            "name": "oracle-tns-ssl",
+            "description": "Oracle TNS Listener SSL"
+        },
+        "2638": {
+            "name": "sybase",
+            "description": "Sybase Database"
+        },
+        "2967": {
+            "name": "symantec-av",
+            "description": "Symantec AntiVirus"
+        },
+        "3000": {
+            "name": "grafana",
+            "description": "Grafana / Node.js Dev Server"
+        },
+        "3128": {
+            "name": "squid-proxy",
+            "description": "Squid HTTP Proxy"
+        },
+        "3268": {
+            "name": "globalcatLDAP",
+            "description": "MS Global Catalog LDAP"
+        },
+        "3269": {
+            "name": "globalcatLDAPs",
+            "description": "MS Global Catalog LDAP/SSL"
+        },
+        "3306": {
+            "name": "mysql",
+            "description": "MySQL Database"
+        },
+        "3389": {
+            "name": "rdp",
+            "description": "Remote Desktop Protocol"
+        },
+        "3390": {
+            "name": "dsc",
+            "description": "Distributed Service Coordinator"
+        },
+        "3541": {
+            "name": "voispeed-port",
+            "description": "VoiSpeed Port"
+        },
+        "3689": {
+            "name": "daap",
+            "description": "Digital Audio Access Protocol"
+        },
+        "3749": {
+            "name": "cimtrak",
+            "description": "CimTrak"
+        },
+        "3784": {
+            "name": "bfd-control",
+            "description": "BFD Control Protocol"
+        },
+        "3868": {
+            "name": "diameter",
+            "description": "Diameter Protocol"
+        },
+        "4000": {
+            "name": "remoteanything",
+            "description": "Remote Anything"
+        },
+        "4333": {
+            "name": "ahsp",
+            "description": "ArrowHead Service Protocol"
+        },
+        "4443": {
+            "name": "pharos",
+            "description": "Pharos"
+        },
+        "4444": {
+            "name": "krb524",
+            "description": "Kerberos 524"
+        },
+        "4567": {
+            "name": "sinatra",
+            "description": "Sinatra/Thin Dev Server"
+        },
+        "4711": {
+            "name": "trinity",
+            "description": "Trinity"
+        },
+        "4848": {
+            "name": "glassfish",
+            "description": "GlassFish Admin"
+        },
+        "4949": {
+            "name": "munin",
+            "description": "Munin Node"
+        },
+        "5000": {
+            "name": "upnp",
+            "description": "UPnP / Flask Dev Server"
+        },
+        "5001": {
+            "name": "commplex-link",
+            "description": "Commplex Link"
+        },
+        "5004": {
+            "name": "rtp-avp",
+            "description": "RTP Audio/Video Profile"
+        },
+        "5005": {
+            "name": "rtp-avp",
+            "description": "RTP Audio/Video Profile (alt)"
+        },
+        "5050": {
+            "name": "mmcc",
+            "description": "Multimedia Conference Control"
+        },
+        "5060": {
+            "name": "sip",
+            "description": "Session Initiation Protocol"
+        },
+        "5061": {
+            "name": "sips",
+            "description": "SIP over TLS"
+        },
+        "5222": {
+            "name": "xmpp-client",
+            "description": "XMPP Client"
+        },
+        "5269": {
+            "name": "xmpp-server",
+            "description": "XMPP Server"
+        },
+        "5353": {
+            "name": "mdns",
+            "description": "Multicast DNS"
+        },
+        "5357": {
+            "name": "wsdapi",
+            "description": "Web Services for Devices"
+        },
+        "5432": {
+            "name": "postgresql",
+            "description": "PostgreSQL Database"
+        },
+        "5555": {
+            "name": "freeciv",
+            "description": "Freeciv / ADB"
+        },
+        "5601": {
+            "name": "kibana",
+            "description": "Kibana"
+        },
+        "5672": {
+            "name": "amqp",
+            "description": "Advanced Message Queuing Protocol"
+        },
+        "5683": {
+            "name": "coap",
+            "description": "Constrained Application Protocol"
+        },
+        "5800": {
+            "name": "vnc-http",
+            "description": "VNC HTTP"
+        },
+        "5900": {
+            "name": "vnc",
+            "description": "Virtual Network Computing"
+        },
+        "5901": {
+            "name": "vnc-1",
+            "description": "VNC Display :1"
+        },
+        "5984": {
+            "name": "couchdb",
+            "description": "Apache CouchDB"
+        },
+        "5985": {
+            "name": "winrm-http",
+            "description": "WinRM HTTP"
+        },
+        "5986": {
+            "name": "winrm-https",
+            "description": "WinRM HTTPS"
+        },
+        "6000": {
+            "name": "x11",
+            "description": "X Window System"
+        },
+        "6001": {
+            "name": "x11-1",
+            "description": "X Window System Display :1"
+        },
+        "6379": {
+            "name": "redis",
+            "description": "Redis Key-Value Store"
+        },
+        "6443": {
+            "name": "kubernetes-api",
+            "description": "Kubernetes API Server"
+        },
+        "6660": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6661": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6662": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6663": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6664": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6665": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6666": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6667": {
+            "name": "irc",
+            "description": "Internet Relay Chat"
+        },
+        "6668": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6669": {
+            "name": "irc",
+            "description": "IRC (alternate)"
+        },
+        "6697": {
+            "name": "ircs",
+            "description": "IRC over TLS"
+        },
+        "6881": {
+            "name": "bittorrent",
+            "description": "BitTorrent"
+        },
+        "7000": {
+            "name": "afs3-fileserver",
+            "description": "AFS File Server / Cassandra Inter-Node"
+        },
+        "7001": {
+            "name": "weblogic",
+            "description": "Oracle WebLogic"
+        },
+        "7002": {
+            "name": "weblogic-ssl",
+            "description": "Oracle WebLogic SSL"
+        },
+        "7070": {
+            "name": "realserver",
+            "description": "RealServer / RTSP Alt"
+        },
+        "7199": {
+            "name": "cassandra-jmx",
+            "description": "Cassandra JMX"
+        },
+        "7474": {
+            "name": "neo4j-http",
+            "description": "Neo4j HTTP"
+        },
+        "7547": {
+            "name": "cwmp",
+            "description": "CPE WAN Management Protocol"
+        },
+        "7687": {
+            "name": "neo4j-bolt",
+            "description": "Neo4j Bolt Protocol"
+        },
+        "8000": {
+            "name": "http-alt",
+            "description": "HTTP Alternate"
+        },
+        "8008": {
+            "name": "http-alt",
+            "description": "HTTP Alternate"
+        },
+        "8009": {
+            "name": "ajp13",
+            "description": "Apache JServ Protocol"
+        },
+        "8042": {
+            "name": "yarn-nodemanager",
+            "description": "YARN NodeManager"
+        },
+        "8069": {
+            "name": "odoo",
+            "description": "Odoo ERP"
+        },
+        "8080": {
+            "name": "http-proxy",
+            "description": "HTTP Proxy / Alt HTTP"
+        },
+        "8081": {
+            "name": "http-proxy",
+            "description": "HTTP Proxy Alternate"
+        },
+        "8088": {
+            "name": "radan-http",
+            "description": "Radan HTTP"
+        },
+        "8090": {
+            "name": "opsmessaging",
+            "description": "OpsMessaging / Confluence"
+        },
+        "8091": {
+            "name": "couchbase-admin",
+            "description": "Couchbase Administration"
+        },
+        "8096": {
+            "name": "emby",
+            "description": "Emby / Jellyfin Media Server"
+        },
+        "8139": {
+            "name": "puppet",
+            "description": "Puppet Agent"
+        },
+        "8140": {
+            "name": "puppet",
+            "description": "Puppet Master"
+        },
+        "8181": {
+            "name": "intermapper",
+            "description": "InterMapper HTTP"
+        },
+        "8200": {
+            "name": "vault",
+            "description": "HashiCorp Vault"
+        },
+        "8222": {
+            "name": "nats-monitor",
+            "description": "NATS Monitoring"
+        },
+        "8291": {
+            "name": "mikrotik-api",
+            "description": "MikroTik Winbox"
+        },
+        "8333": {
+            "name": "bitcoin",
+            "description": "Bitcoin"
+        },
+        "8334": {
+            "name": "bitcoin-ssl",
+            "description": "Bitcoin SSL"
+        },
+        "8443": {
+            "name": "https-alt",
+            "description": "HTTPS Alternate"
+        },
+        "8500": {
+            "name": "consul-http",
+            "description": "Consul HTTP API"
+        },
+        "8834": {
+            "name": "nessus-https",
+            "description": "Nessus HTTPS"
+        },
+        "8880": {
+            "name": "cddbp-alt",
+            "description": "CDDBP Alt / WebSphere"
+        },
+        "8888": {
+            "name": "http-alt",
+            "description": "HTTP Alternate / Jupyter"
+        },
+        "8983": {
+            "name": "solr",
+            "description": "Apache Solr"
+        },
+        "9000": {
+            "name": "cslistener",
+            "description": "CSlistener / SonarQube"
+        },
+        "9001": {
+            "name": "tor-orport",
+            "description": "Tor ORPort / Supervisord"
+        },
+        "9042": {
+            "name": "cassandra",
+            "description": "Apache Cassandra CQL"
+        },
+        "9043": {
+            "name": "websphere-admin",
+            "description": "WebSphere Admin HTTPS"
+        },
+        "9050": {
+            "name": "tor-socks",
+            "description": "Tor SOCKS Proxy"
+        },
+        "9080": {
+            "name": "glrpc",
+            "description": "GlassFish HTTP"
+        },
+        "9090": {
+            "name": "zeus-admin",
+            "description": "Zeus Admin / Prometheus"
+        },
+        "9091": {
+            "name": "transmission",
+            "description": "Transmission BitTorrent"
+        },
+        "9100": {
+            "name": "jetdirect",
+            "description": "HP JetDirect"
+        },
+        "9200": {
+            "name": "elasticsearch",
+            "description": "Elasticsearch HTTP"
+        },
+        "9300": {
+            "name": "elasticsearch-node",
+            "description": "Elasticsearch Node Comm"
+        },
+        "9418": {
+            "name": "git",
+            "description": "Git Protocol"
+        },
+        "9443": {
+            "name": "tungsten-https",
+            "description": "Tungsten HTTPS"
+        },
+        "9500": {
+            "name": "ismserver",
+            "description": "ISM Server"
+        },
+        "9595": {
+            "name": "pds",
+            "description": "PDS"
+        },
+        "9600": {
+            "name": "logstash",
+            "description": "Logstash Monitoring API"
+        },
+        "9999": {
+            "name": "abyss",
+            "description": "Abyss Web Server"
+        },
+        "10000": {
+            "name": "webmin",
+            "description": "Webmin Admin Panel"
+        },
+        "10050": {
+            "name": "zabbix-agent",
+            "description": "Zabbix Agent"
+        },
+        "10051": {
+            "name": "zabbix-trapper",
+            "description": "Zabbix Trapper"
+        },
+        "10250": {
+            "name": "kubelet",
+            "description": "Kubernetes Kubelet API"
+        },
+        "10443": {
+            "name": "cirros-https",
+            "description": "CirrOS HTTPS"
+        },
+        "11211": {
+            "name": "memcached",
+            "description": "Memcached"
+        },
+        "11371": {
+            "name": "hkp",
+            "description": "OpenPGP HTTP Keyserver"
+        },
+        "12345": {
+            "name": "netbus",
+            "description": "NetBus Trojan"
+        },
+        "13579": {
+            "name": "media",
+            "description": "Media Server"
+        },
+        "14265": {
+            "name": "iota",
+            "description": "IOTA Node API"
+        },
+        "15672": {
+            "name": "rabbitmq-mgmt",
+            "description": "RabbitMQ Management"
+        },
+        "16992": {
+            "name": "amt-soap-http",
+            "description": "Intel AMT SOAP/HTTP"
+        },
+        "17000": {
+            "name": "db-lsp",
+            "description": "DB-LSP"
+        },
+        "18080": {
+            "name": "http-alt",
+            "description": "HTTP Alt"
+        },
+        "19150": {
+            "name": "gkrellm",
+            "description": "GKrellM Server"
+        },
+        "20000": {
+            "name": "dnp",
+            "description": "DNP3 / Webmin Usermin"
+        },
+        "22222": {
+            "name": "easyengine",
+            "description": "EasyEngine"
+        },
+        "25565": {
+            "name": "minecraft",
+            "description": "Minecraft Server"
+        },
+        "27017": {
+            "name": "mongodb",
+            "description": "MongoDB Database"
+        },
+        "27018": {
+            "name": "mongodb-shard",
+            "description": "MongoDB Shard Server"
+        },
+        "27019": {
+            "name": "mongodb-cfg",
+            "description": "MongoDB Config Server"
+        },
+        "28017": {
+            "name": "mongodb-http",
+            "description": "MongoDB HTTP Interface"
+        },
+        "30718": {
+            "name": "lantronix",
+            "description": "Lantronix"
+        },
+        "32400": {
+            "name": "plex",
+            "description": "Plex Media Server"
+        },
+        "33060": {
+            "name": "mysqlx",
+            "description": "MySQL X Protocol"
+        },
+        "37777": {
+            "name": "dahua-dvr",
+            "description": "Dahua DVR"
+        },
+        "44818": {
+            "name": "ethernet-ip",
+            "description": "EtherNet/IP"
+        },
+        "47808": {
+            "name": "bacnet",
+            "description": "BACnet"
+        },
+        "49152": {
+            "name": "upnp",
+            "description": "UPnP (dynamic)"
+        },
+        "50000": {
+            "name": "db2",
+            "description": "IBM DB2"
+        },
+        "50070": {
+            "name": "hdfs-namenode",
+            "description": "HDFS NameNode HTTP"
+        },
+        "51413": {
+            "name": "transmission",
+            "description": "Transmission BitTorrent"
+        },
+        "54321": {
+            "name": "bo2k",
+            "description": "Back Orifice 2000"
+        },
+        "55553": {
+            "name": "metasploit",
+            "description": "Metasploit MSGRPC"
+        },
+        "61616": {
+            "name": "activemq",
+            "description": "Apache ActiveMQ"
+        }
+    },
+    "udp": {
+        "7": {
+            "name": "echo",
+            "description": "Echo Protocol"
+        },
+        "9": {
+            "name": "discard",
+            "description": "Discard Protocol"
+        },
+        "11": {
+            "name": "systat",
+            "description": "Active Users"
+        },
+        "13": {
+            "name": "daytime",
+            "description": "Daytime Protocol"
+        },
+        "17": {
+            "name": "qotd",
+            "description": "Quote of the Day"
+        },
+        "19": {
+            "name": "chargen",
+            "description": "Character Generator"
+        },
+        "37": {
+            "name": "time",
+            "description": "Time Protocol"
+        },
+        "42": {
+            "name": "nameserver",
+            "description": "Host Name Server"
+        },
+        "49": {
+            "name": "tacacs",
+            "description": "TACACS"
+        },
+        "53": {
+            "name": "dns",
+            "description": "Domain Name System"
+        },
+        "67": {
+            "name": "dhcp-server",
+            "description": "DHCP Server"
+        },
+        "68": {
+            "name": "dhcp-client",
+            "description": "DHCP Client"
+        },
+        "69": {
+            "name": "tftp",
+            "description": "Trivial File Transfer Protocol"
+        },
+        "111": {
+            "name": "rpcbind",
+            "description": "ONC RPC Portmapper"
+        },
+        "123": {
+            "name": "ntp",
+            "description": "Network Time Protocol"
+        },
+        "135": {
+            "name": "msrpc",
+            "description": "Microsoft RPC"
+        },
+        "137": {
+            "name": "netbios-ns",
+            "description": "NetBIOS Name Service"
+        },
+        "138": {
+            "name": "netbios-dgm",
+            "description": "NetBIOS Datagram Service"
+        },
+        "161": {
+            "name": "snmp",
+            "description": "Simple Network Management Protocol"
+        },
+        "162": {
+            "name": "snmptrap",
+            "description": "SNMP Trap"
+        },
+        "177": {
+            "name": "xdmcp",
+            "description": "X Display Manager Control Protocol"
+        },
+        "389": {
+            "name": "ldap",
+            "description": "LDAP (connectionless)"
+        },
+        "427": {
+            "name": "svrloc",
+            "description": "Service Location Protocol"
+        },
+        "443": {
+            "name": "https",
+            "description": "HTTPS (QUIC)"
+        },
+        "464": {
+            "name": "kpasswd",
+            "description": "Kerberos Change/Set Password"
+        },
+        "500": {
+            "name": "isakmp",
+            "description": "ISAKMP / IKE"
+        },
+        "514": {
+            "name": "syslog",
+            "description": "Syslog"
+        },
+        "520": {
+            "name": "rip",
+            "description": "Routing Information Protocol"
+        },
+        "521": {
+            "name": "ripng",
+            "description": "RIP Next Generation"
+        },
+        "623": {
+            "name": "ipmi",
+            "description": "IPMI"
+        },
+        "626": {
+            "name": "serialnumberd",
+            "description": "Apple Serial Number"
+        },
+        "631": {
+            "name": "ipp",
+            "description": "Internet Printing Protocol"
+        },
+        "996": {
+            "name": "xtreelic",
+            "description": "Xtree License Server"
+        },
+        "997": {
+            "name": "maitrd",
+            "description": "Maitrd"
+        },
+        "998": {
+            "name": "puparp",
+            "description": "PUP ARP"
+        },
+        "999": {
+            "name": "applix",
+            "description": "Applix"
+        },
+        "1194": {
+            "name": "openvpn",
+            "description": "OpenVPN"
+        },
+        "1434": {
+            "name": "mssql-monitor",
+            "description": "Microsoft SQL Monitor"
+        },
+        "1645": {
+            "name": "radius-old",
+            "description": "RADIUS Authentication (old)"
+        },
+        "1646": {
+            "name": "radius-acct-old",
+            "description": "RADIUS Accounting (old)"
+        },
+        "1701": {
+            "name": "l2tp",
+            "description": "Layer 2 Tunnelling Protocol"
+        },
+        "1812": {
+            "name": "radius",
+            "description": "RADIUS Authentication"
+        },
+        "1813": {
+            "name": "radius-acct",
+            "description": "RADIUS Accounting"
+        },
+        "1900": {
+            "name": "ssdp",
+            "description": "Simple Service Discovery Protocol"
+        },
+        "2049": {
+            "name": "nfs",
+            "description": "Network File System"
+        },
+        "3283": {
+            "name": "net-assistant",
+            "description": "Apple Remote Desktop"
+        },
+        "3478": {
+            "name": "stun",
+            "description": "STUN/TURN"
+        },
+        "3544": {
+            "name": "teredo",
+            "description": "Teredo Tunnelling"
+        },
+        "4500": {
+            "name": "nat-t-ike",
+            "description": "IKE NAT-Traversal"
+        },
+        "4789": {
+            "name": "vxlan",
+            "description": "VXLAN"
+        },
+        "5060": {
+            "name": "sip",
+            "description": "Session Initiation Protocol"
+        },
+        "5353": {
+            "name": "mdns",
+            "description": "Multicast DNS"
+        },
+        "5683": {
+            "name": "coap",
+            "description": "Constrained Application Protocol"
+        },
+        "6343": {
+            "name": "sflow",
+            "description": "sFlow"
+        },
+        "10161": {
+            "name": "snmp-tls",
+            "description": "SNMP over DTLS"
+        },
+        "11211": {
+            "name": "memcached",
+            "description": "Memcached"
+        },
+        "27960": {
+            "name": "quake3",
+            "description": "Quake 3 / OpenArena"
+        },
+        "33434": {
+            "name": "traceroute",
+            "description": "Traceroute"
+        },
+        "47808": {
+            "name": "bacnet",
+            "description": "BACnet"
+        }
+    }
+}

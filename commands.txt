@@ -1,0 +1,181 @@
+========================================================
+  NetProbe — All Commands Reference
+========================================================
+
+
+--------------------------------------------------------
+  1. BASIC SCANS
+--------------------------------------------------------
+
+# Scan ports 1-1000 on a single IP
+python3 main.py -t 127.0.0.1 -p 1-1000
+
+# Scan specific ports
+python3 main.py -t 192.168.1.1 -p 22,80,443,8080
+
+# Scan a hostname
+python3 main.py -t example.com -p 80,443
+
+# Scan top 100 most common ports
+python3 main.py -t 192.168.1.1 --top-ports 100
+
+
+--------------------------------------------------------
+  2. SCAN TYPES
+--------------------------------------------------------
+
+# TCP Connect scan (default)
+python3 main.py -t 192.168.1.1 -p 1-1024 -sT
+
+# TCP SYN scan (requires root, Linux only)
+sudo python3 main.py -t 192.168.1.1 -p 1-1024 -sS
+
+# UDP scan
+python3 main.py -t 192.168.1.1 -p 53,67,68,123,161 -sU
+
+
+--------------------------------------------------------
+  3. MULTIPLE TARGETS
+--------------------------------------------------------
+
+# Scan a CIDR range (entire subnet)
+python3 main.py -t 192.168.1.0/24 -p 80,443
+
+# Scan an IP range
+python3 main.py -t 192.168.1.1-192.168.1.50 -p 22,80
+
+# Scan comma-separated targets
+python3 main.py -t 192.168.1.1,192.168.1.2,192.168.1.3 -p 80
+
+# Scan targets from a file
+python3 main.py -iL targets.txt -p 80,443
+
+
+--------------------------------------------------------
+  4. SERVICE & BANNER DETECTION
+--------------------------------------------------------
+
+# Enable service/version detection
+python3 main.py -t 192.168.1.1 -p 22,80,443 --service-detection
+
+# Scan without banner grabbing (faster)
+python3 main.py -t 192.168.1.1 -p 1-1024 --no-banner
+
+
+--------------------------------------------------------
+  5. PERFORMANCE TUNING
+--------------------------------------------------------
+
+# Set number of threads (default: 1000)
+python3 main.py -t 192.168.1.1 -p 1-65535 --threads 2000
+
+# Set timeout per port in seconds (default: 1.0)
+python3 main.py -t 192.168.1.1 -p 1-1024 --timeout 2.0
+
+# Set retries for filtered ports (default: 1)
+python3 main.py -t 192.168.1.1 -p 1-1024 --retries 3
+
+# Rate limit connections per second (0 = unlimited)
+python3 main.py -t 192.168.1.1 -p 1-1024 --rate-limit 500
+
+
+--------------------------------------------------------
+  6. OUTPUT / SAVE RESULTS
+--------------------------------------------------------
+
+# Save results as JSON
+python3 main.py -t 192.168.1.1 -p 1-1024 -oJ results.json
+
+# Save results as CSV
+python3 main.py -t 192.168.1.1 -p 1-1024 -oC results.csv
+
+# Save results as TXT
+python3 main.py -t 192.168.1.1 -p 1-1024 -oT results.txt
+
+# Save in all formats at once
+python3 main.py -t 192.168.1.1 -p 1-1024 -oJ results.json -oC results.csv -oT results.txt
+
+
+--------------------------------------------------------
+  7. OTHER OPTIONS
+--------------------------------------------------------
+
+# Verbose / debug output
+python3 main.py -t 192.168.1.1 -p 80 --verbose
+
+# Disable colored output
+python3 main.py -t 192.168.1.1 -p 80 --no-color
+
+# Show version
+python3 main.py --version
+
+# Show help
+python3 main.py --help
+
+
+--------------------------------------------------------
+  8. FULL EXAMPLE COMMANDS
+--------------------------------------------------------
+
+# Quick scan of localhost
+python3 main.py -t 127.0.0.1 -p 1-1024
+
+# Full scan with service detection and JSON output
+python3 main.py -t 192.168.1.1 -p 1-65535 --service-detection --threads 2000 --timeout 1.5 -oJ scan_results.json
+
+# Subnet scan, top ports, CSV output, verbose
+python3 main.py -t 10.0.0.0/24 --top-ports 50 --verbose -oC network_scan.csv
+
+# Fast scan (no banners, high threads)
+python3 main.py -t 192.168.1.1 -p 1-65535 --no-banner --threads 5000 --timeout 0.5
+
+
+========================================================
+  TESTING COMMANDS
+========================================================
+
+# Run all tests
+python3 -m pytest tests/ -v
+
+# Run all tests with coverage
+python3 -m pytest tests/ -v --cov=. --cov-report=term-missing
+
+# Run a specific test file
+python3 -m pytest tests/test_tcp_scanner.py -v
+
+# Run a specific test case
+python3 -m pytest tests/test_tcp_scanner.py::TestTCPScanner::test_scan_open_port -v
+
+# Stop on first failure
+python3 -m pytest tests/ -v -x
+
+# Show 5 slowest tests
+python3 -m pytest tests/ -v --durations=5
+
+
+========================================================
+  HOW TO EXIT / STOP
+========================================================
+
+# Stop a running scan (cancel mid-scan)
+Ctrl + C
+
+# Force stop if Ctrl+C doesn't work
+Ctrl + Z
+
+# Exit the terminal session
+exit
+
+# Or use shortcut to exit terminal
+Ctrl + D
+
+# Kill a background process by PID
+kill <PID>
+
+# Force kill a process
+kill -9 <PID>
+
+# Find NetProbe process if running in background
+ps aux | grep main.py
+
+========================================================
