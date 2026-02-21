@@ -69,7 +69,7 @@
 ### Step 1: Clone the project
 
 ```bash
-git clone https://github.com/youruser/netprobe.git
+git clone https://github.com/thesatyam161/netprobe.git
 cd netprobe
 ```
 
